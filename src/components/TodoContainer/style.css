@@ -1,0 +1,31 @@
+.todo-list {
+  padding: 35px 0;
+}
+
+.todo-list .ant-list-item {
+  position: relative;
+  font-size: 18px;
+  justify-content: start;
+  user-select: none;
+  z-index: 1;
+}
+
+.list-content {
+  background-color: white;
+  padding: 0 15px;
+}
+
+.list-item {
+  display: flex;
+}
+
+.todo-operator {
+  position: absolute;
+  top: 11px;right: 0;
+  z-index: 1;
+}
+
+.anticon {
+  font-size: 25px;
+  margin: 0 11px;
+}

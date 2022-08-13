@@ -1,0 +1,22 @@
+body {
+  background-color: aliceblue;
+}
+
+.todo-item {
+  position: relative;
+  text-align: center;
+  min-width: 888px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  z-index: 1;
+}
+
+.todo-item-button {
+  position: absolute;
+  top: 0; right: 0;
+  width: 138px;
+  border-top-left-radius: 0;
+  border-bottom-left-radius: 0;
+  z-index: 2;
+}
