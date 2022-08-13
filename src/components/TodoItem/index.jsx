@@ -33,7 +33,7 @@ const TodoItem = ({ onSubmit }) => {
 
   return (
     <div className='todo-item'>
-      <Input size="large" value={itemContent.content} onPressEnter={handler} onChange={changeValue} />
+      <Input placeholder="请输入代办事项" size="large" value={itemContent.content} onPressEnter={handler} onChange={changeValue} />
       <Button className="todo-item-button" size="large" type='primary' onClick={handler}>提交</Button>
     </div>
   );
